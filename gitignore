@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Models (if you want to exclude)
+# models/*.pth
+
+# Data
+data/
+*.csv
+*.h5
+
+# Outputs (exclude everything except .gitkeep)
+outputs/
+!outputs/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Colab
+.ipynb_checkpoints/
